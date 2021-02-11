@@ -9,7 +9,6 @@ import { combineReducers } from "redux";
 import CopyOfSignIn2203843Reducer from '../features/CopyOfSignIn2203843/redux/reducers'
 import CopyOfSignIn2203842Reducer from '../features/CopyOfSignIn2203842/redux/reducers'
 import SignIn2203829Reducer from '../features/SignIn2203829/redux/reducers'
-import SignIn2203796Reducer from '../features/SignIn2203796/redux/reducers'
 
 export const combinedReducers = combineReducers({
   blank: (state, action) => {
@@ -22,6 +21,5 @@ export const combinedReducers = combineReducers({
 CopyOfSignIn2203843: CopyOfSignIn2203843Reducer,
 CopyOfSignIn2203842: CopyOfSignIn2203842Reducer,
 SignIn2203829: SignIn2203829Reducer,
-SignIn2203796: SignIn2203796Reducer,
 
 });
